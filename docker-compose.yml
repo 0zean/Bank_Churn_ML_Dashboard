@@ -1,0 +1,10 @@
+version: '3.3'
+
+# Services
+services:
+  explainer_dashboard_bank_churn:
+    container_name: explainer_dashboard_bank_churn
+    build: ./explainer_dashboard
+    ports:
+      - "8400:8050"
+    restart: on-failure
