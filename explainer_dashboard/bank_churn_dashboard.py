@@ -4,7 +4,7 @@ from explainerdashboard import ClassifierExplainer, ExplainerDashboard
 from pycaret.classification import load_model
 
 # Retrieve the Test Data
-ml_path = "/explainer_dashboard/mlruns/1/bd6045e85a4b485cafdb639247bf439e/artifacts"
+ml_path = "/mlruns/1/bd6045e85a4b485cafdb639247bf439e/artifacts"
 test_data_path = getcwd() + ml_path
 
 # Test Data
@@ -16,7 +16,7 @@ X_test = test_df.drop("Exited", axis=1)
 y_test = test_df["Exited"]
 
 # Load the model from PyCaret
-p = "/explainer_dashboard/pycaret_assets/models/bank_churn_experiment_ensembles_v2_best_model.pkl"
+p = "/pycaret_assets/models/bank_churn_experiment_ensembles_v2_best_model"
 model_path = (
     getcwd() + p
 )
