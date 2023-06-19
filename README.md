@@ -8,4 +8,4 @@ One important metric that banks consider for assessing their lifetime value attr
 
 ### Quick Glance
 
-![](https://p131.p1.n0.cdn.getcloudapp.com/items/geuPW0vX/95f872fd-b05d-4339-bc13-487d1f251060.gif?v=cacc117b779287ea178f0c8404419558)
+![](./Explainer_Dashboard_GIF.gif)
